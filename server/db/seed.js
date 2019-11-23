@@ -3,7 +3,7 @@ const colors = require('colors/safe');
 const { db, Employee } = require('./index.js');
 
 // Adjust this number to create more/less employees
-const TOTAL_EMPLOYEES = 325;
+const TOTAL_EMPLOYEES = 1002;
 
 const generateSingleEmployee = () => {
   const firstName = faker.name.firstName();

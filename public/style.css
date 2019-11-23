@@ -1,0 +1,38 @@
+table {
+  display: flex;
+
+  justify-content: space-around;
+  border: solid 1px black;
+}
+th {
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+}
+thead {
+  width: 100%;
+  background-color: lightblue;
+  padding-left: 8rem;
+}
+a:active {
+  color: green;
+}
+.user,
+#table-header {
+  display: flex;
+  border-bottom: solid 1px #333;
+}
+
+#table-header {
+  background-color: dodgerBlue;
+  color: white;
+  font-weight: bold;
+}
+.user div,
+#table-header div {
+  padding: 1rem;
+  font-size: smaller;
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
