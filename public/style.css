@@ -1,8 +1,11 @@
 table {
-  display: flex;
-
-  justify-content: space-around;
+  margin-left: 9rem;
   border: solid 1px black;
+}
+nav {
+  text-align: center;
+
+  /* display: flex; */
 }
 th {
   padding-left: 5.5rem;
@@ -13,9 +16,7 @@ thead {
   background-color: lightblue;
   padding-left: 8rem;
 }
-a:active {
-  color: green;
-}
+
 .user,
 #table-header {
   display: flex;
@@ -27,8 +28,8 @@ a:active {
   color: white;
   font-weight: bold;
 }
-.user div,
-#table-header div {
+.user td,
+#table-header td {
   padding: 1rem;
   font-size: smaller;
   flex: 1;
